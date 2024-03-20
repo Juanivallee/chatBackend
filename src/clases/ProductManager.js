@@ -7,7 +7,7 @@ class ProductManager{
 
     constructor(){
         this.products=[]
-        this.path = "./base_de_datos/productos.json"
+        this.path = "../base_de_datos/productos.json"
         if (!fs.existsSync(this.path)) {
             fs.writeFileSync(this.path, JSON.stringify([], null, "\t"), (error) => {
                 if (error) {

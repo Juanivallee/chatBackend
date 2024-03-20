@@ -5,7 +5,7 @@ class CartManager{
 
     constructor(){
         this.carts = []
-        this.path = "./base_de_datos/carts.json"
+        this.path = "../base_de_datos/carts.json"
     }
 
     createCart(){
